@@ -1,0 +1,137 @@
+*{
+	margin:0;
+	padding:1px;
+}
+
+body {
+	background-image: url('./images/img.jpg');
+	background-size: cover;
+	padding: 30px 20px;
+	image-resolution: 100%;
+}
+
+h1 {
+	color: white;
+	display: block;
+	text-align: center;
+	font-family: cursive;
+}
+
+h1:hover {
+	color: magenta;
+}
+
+.container-form>form>input[type="search"] {
+	width: 94%;
+	border-radius:25px;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	margin:10px 0px;
+	padding:5px 0px 5px 25px;
+	box-sizing: border-box;
+
+	@import #submit{
+		font-size: 18px;
+		display: block;
+		margin: 0 auto;
+		background-color: white;
+		color:black;
+		outline: none;
+		padding: 10px;
+		border-radius: 30px;
+		border:2px solid white;
+	}
+}
+
+#submit:hover {
+	color:white;
+	background-color: #282828;
+	border:2px solid #282828;
+	cursor:pointer;
+}
+
+.responseDiv {
+	margin: 0px auto;
+}
+
+.responseSpan {
+	box-sizing: border-box;
+	/* height:440px; */
+	width: 97%;
+	/* border:1px solid white; */
+	padding: 25px 50px;
+	box-sizing: border-box;
+	margin:20px;
+	position: realtive;
+	left:50%;
+	border-radius: 28px 28px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.responseSpan:nth-child(odd) {
+	background-image: url('./images/img1.jpg');
+	background-size: cover;
+	color: springgreen;
+}
+
+.responseSpan:nth-child(even) {	
+	background-image: url('./images/img2.jpg');
+	background-size: cover;
+	color: springgreen;
+}
+
+.responseSpan>h3 {
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+	font-family: cursive;
+}
+
+.responseSpan h3:hover {
+	color: springgreen;
+}
+
+.responseSpan>img {
+	width: 280px;
+	height: 240px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-radius: 20px 20px;
+}
+
+.responseSpan>ul {
+	list-style: inherit;
+	margin-left: 55px;
+	font-family: sans-serif;
+}
+
+.responseSpan>a>button {
+	display: block;
+	margin:0 auto;
+	padding:5px;
+	margin-top: 10px;
+	background-color: #ffa600;
+	color:whitesmoke;
+	outline:none;
+	border:none;
+	font-size: 18px;
+	border-radius:30px;
+}
+
+.responseSpan>a>button:hover {
+	background-color:#282828;
+}
+
+.responseSpan>a {
+	text-decoration: none;
+}
+
+.responseSpan:hover {
+	border:1px solid #f1f1f1;
+	background-image: url('./images/img3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}

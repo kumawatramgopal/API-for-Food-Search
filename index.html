@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="./style.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
+	<title>API for Food Search</title>
+	<script src="https://developer.edamam.com/attribution/badge.js"></script>
+</head>
+<body>
+	<div id="edamam-badge" data-color="white">
+	</div>
+	<div class="container">	
+		<div class="container-form" id="top">
+			<h1>Recipe Search</h1>
+			<form autocomplete="off">
+				<input type="search" name="keyword">
+				<input style="font-size: 18px; padding: 4px; border-radius: 30px;" type="submit" id="submit" value="Search" name="search">
+			</form>
+		</div>
+		<div class="responseDiv">
+	
+		</div>
+	</div>
+	<script src="./app.js"></script>
+</body>
+</html>
