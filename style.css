@@ -40,7 +40,7 @@ h1:hover {
 		outline: none;
 		padding: 10px;
 		border-radius: 30px;
-		border:2px solid white;
+		border:2px solid black;
 	}
 }
 
@@ -57,9 +57,7 @@ h1:hover {
 
 .responseSpan {
 	box-sizing: border-box;
-	/* height:440px; */
 	width: 97%;
-	/* border:1px solid white; */
 	padding: 25px 50px;
 	box-sizing: border-box;
 	margin:20px;
